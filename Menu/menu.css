@@ -1,0 +1,71 @@
+body {
+    background-color: #4D4D4D;
+}
+
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+div.scrollmenu a {
+    align-items: flex-end;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+    color: aliceblue;
+}
+
+#logo_container {
+    display: flex;
+    align-self: flex-start;
+    margin-right: 770px;
+    margin-top: 10px;
+}
+
+.logo {
+margin-right: 10px;
+margin-left: 0;
+}
+
+.name {
+    font-size: 30px;
+    color: white;
+    margin-top: 0;
+    margin-right: 80px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#header-container {
+    display: flex;
+    justify-content: center;
+}
+
+#menu-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+
+
+.menu-items {  
+    font-size: 30px;
+    margin: 40px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    opacity: 1;
+}

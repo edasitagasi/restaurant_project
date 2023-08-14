@@ -1,0 +1,114 @@
+body {
+    background-color: #4D4D4D;
+}
+
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+div.scrollmenu a {
+    align-items: flex-end;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+    color: aliceblue;
+}
+
+#logo_container {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 770px;
+    margin-top: 10px;
+}
+
+.logo {
+    margin-right: 10px;
+    margin-left: 0;
+    }
+
+.name {
+    font-size: 30px;
+    color: white;
+    margin-top: 0;
+    margin-right: 135px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#headingContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+#bookImage {
+    width: 1430px;
+    height: 600px;
+    filter: blur(8px);
+    -webkit-filter: blur(4px);
+    position: absolute;
+
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.bookingContainer {
+    display: flex;
+    justify-content: center;
+    background-color: #D9D9D9;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 600px;
+    z-index: 9;
+    position: absolute;
+    margin-left: 530px;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+
+#bookingForm {
+    align-self: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+
+.inputMode {
+    padding: 5px;
+    width: 350px;
+    height: 36px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn {
+    margin-top: 40px;
+    margin-left: 100px;
+    padding: 5px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: #34B14F;
+    color: white;
+    font-size: 25px;
+}
+
+
+
