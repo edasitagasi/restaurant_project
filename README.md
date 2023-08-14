@@ -1,4 +1,4 @@
-<h1 align="center" id="title">To do list</h1>
+<h1 align="center" id="title">Restaurant project</h1>
 
 <p id="description">This project was made as an exercise and on educational purposes while learning JavaScript and its functionality.</p>
 
